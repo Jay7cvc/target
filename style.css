@@ -51,10 +51,11 @@ ul, li {
 }
 
 .header {
-	background-color: #0c1424;
+	/*background-color: #0c1424;*/
 	padding-bottom: 282px;
     padding-top: 40px;
-}
+    background: url('../target1/img/Image.png') no-repeat center top / cover;
+} 
 
 .logo {
     width: 60px;
@@ -73,7 +74,11 @@ ul, li {
 }
 
 .menu li a:hover {
-	border-bottom: 1px solid  #c38b5b;
+    padding-bottom: 2px;
+	border-bottom: 2px solid  #c38b5b;
+    -moz-text-shadow:0 0 13px #cf8d53;
+    -webkit-text-shadow:0 0 13px #cf8d53;
+    text-shadow:0 0 13px #cf8d53;
 }
 
 .menu li {
@@ -140,7 +145,7 @@ ul, li {
     position: absolute;
     margin-top: 40px;
     width: 340px;
-    box-shadow: 3px 2px 5px 3px  #c38b5b;
+    box-shadow: 3px 2px 5px 3px  /*#c38b5b*/ #fff;
     transition: 0.3s;
 }
 
@@ -177,7 +182,7 @@ button {
     margin-top: 474px;
     margin-left: -810px;
     padding: 23px 65px;
-    background: #f5ddb7;
+    background: #b3aa9d;
     font-size: 17px;
     font-weight: 900;
     color: #181818;
@@ -246,6 +251,7 @@ button {
   button:hover {
     padding: 23px 65px;
     border-radius: 8px 8px 24px 24px;
+    box-shadow:0 0 6px #cf8d53;
   }
   
   button:hover .icon-1 {
