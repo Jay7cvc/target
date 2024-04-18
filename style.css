@@ -51,10 +51,10 @@ ul, li {
 }
 
 .header {
-	/*background-color: #0c1424;*/
+	background-color: #0c1424;
 	padding-bottom: 282px;
     padding-top: 40px;
-    background: url('/img/Image.png') no-repeat center top / cover;
+    
 } 
 
 .logo {
